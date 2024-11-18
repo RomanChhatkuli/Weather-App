@@ -1,0 +1,47 @@
+.search{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin-top: 40px;
+}
+#searchBar{
+  width: 300px;
+}
+.weatherApp{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 16px;
+  padding: 16px;
+}
+.photo img {
+  width: 100%;
+  border-radius: 8px;
+  height: 300px;
+  object-fit: contain;
+}
+.photo p {
+  text-align: center;
+  margin-top: 8px;
+  font-size: 14px;
+}
+.cityName{
+  display: flex;
+  align-items: center;
+}
+.infoCard Card{
+  background-color: red
+}
+.infoCard img{
+  object-fit: contain;
+}
